@@ -36,7 +36,7 @@ class HalamanLogin extends StatelessWidget{
                 ),
                 ),
                 MaterialButton(
-                child: Text("Login"),
+                child: Text("bfadlfjladskjfkjaslfjl;asdfj"),
                 color: Colors.lightBlueAccent,
                 onPressed: () {},
                 ),    
