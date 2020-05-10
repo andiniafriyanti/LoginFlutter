@@ -51,12 +51,34 @@ class HalamanLogin extends StatelessWidget {
               //   color: Colors.lightBlueAccent,
               //   onPressed: () {},
               // ),
-              new OutlineButton(
-                  child: new Text("Login"),
-                  color: Colors.lightBlueAccent,
-                  onPressed: (){},
-                  shape: new RoundedRectangleBorder(
-                      borderRadius: new BorderRadius.circular(30.0)))
+              // Container(
+              //   child: new OutlineButton(
+              //       child: new Text("Login",),
+              //       color: Colors.lightBlueAccent,
+
+              //       onPressed: (){},
+              //       shape: new RoundedRectangleBorder(
+              //           borderRadius: new BorderRadius.circular(30.0))),
+              // ),
+              SizedBox(height: 10,),
+              Container(
+            
+                width: 500,
+                  padding: EdgeInsets.all(10.0),
+                  // margin: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 0),
+                  margin: EdgeInsets.only(left:8,right:8),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8.0),
+                      color: Colors.lightBlueAccent),
+// color: Colors.purple,
+                  child: Center(
+                    child: Text(
+                      'Login',
+                      style: TextStyle(color: Colors.white, fontSize: 20.0),
+                    ),
+                  )),
+
+              GestureDetector(onTap: () {}, child: Text("register akun")),
             ],
           ),
         ),
